@@ -27,10 +27,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         firstViewController.title = "first"
         let firstTabBarItem = UITabBarItem(tabBarSystemItem: .downloads, tag: 0)
         firstViewController.tabBarItem = firstTabBarItem
-        
+        // second commit
         
         let secondViewController = UIViewController()
-        secondViewController.view.backgroundColor = #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 1)
+        secondViewController.view.backgroundColor = #colorLiteral(red: 0.9529411793, green: 0.6862745285, blue: 0.1333333403, alpha: 1)
         secondViewController.title = "second"
         let secondTabBarItem = UITabBarItem(tabBarSystemItem: .history, tag: 1)
         secondViewController.tabBarItem = secondTabBarItem
